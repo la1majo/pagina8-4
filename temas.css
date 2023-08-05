@@ -1,5 +1,5 @@
 body{
-    background-color: ghostwhite;
+    background-color: rgb(47, 47, 155);
 }
 
 .contenedor{
@@ -8,22 +8,31 @@ body{
 }
 
 .encabezado{
-    background-color: rgb(177, 59, 59);
+    background-color: rgb(51, 18, 18);
     padding: 10px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
 }
 
 .menu{
     margin-top: 20px;
     display: flex;
-    border: 2px solid black;
+    border: 2px solid rgb(82, 13, 13);
     border-radius: 5px;
     width: 20%;
     padding: 10px;
 }
 
-.opcion{
-    padding: 0 15px 0 15px;
+.forma{
+    display: flex;
+    align-items: center;
 }
+
+.coco{
+    align-items: center;
+
+}
+
+.opcion{
+    padding: 0 150px 
